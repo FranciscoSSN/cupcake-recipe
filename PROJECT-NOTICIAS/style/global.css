@@ -9,7 +9,7 @@
     --brand-color-dark: #1D4ED8;
 
     --bg-color: #0F172A;
-    --stroke-color: ##1E293B;
+    --stroke-color: #1E293B;
 
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
@@ -54,11 +54,12 @@ img {
 
 main {
     margin-top: 40px;
+    gap: 80px;
 }
 
 .content-tag {
     display: inline-block;
-    background-color: var(--brand-color-light);
+    background-color: var(--brand-color-dark);
     padding: 4px 8px;
     border-radius: 8px;
     font: 500 10px/1.2 var(--font-family);
